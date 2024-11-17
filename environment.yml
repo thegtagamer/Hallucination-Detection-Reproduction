@@ -1,0 +1,19 @@
+name: HD
+channels:
+  - defaults
+  - pytorch
+dependencies:
+  - python=3.9.12
+  - pyparsing=3.0.4
+  - pip=21.2.4
+  - numpy=1.21.5
+  - scipy=1.7.3
+  - scikit-learn
+  - pip:
+      - torch==2.0.1
+      - torchaudio==2.0.2
+      - torchvision==0.15.2
+      - transformers==4.29.2
+      - tqdm==4.64.0
+      - argparse==1.4.0
+
